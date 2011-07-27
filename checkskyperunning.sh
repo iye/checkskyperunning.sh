@@ -8,6 +8,8 @@
 # This script will launch skype only if it's not already running and with the
 # lowest priority.
 
+# Insert GPL 3 license here
+
 programName=skype
 
 psOutput=`pgrep -l $programName | grep -wc $programName`
