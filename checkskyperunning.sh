@@ -20,7 +20,7 @@ else
     # $programName &
     # If output is not redirected to /dev/null the bash instance will remain running
     # as long as skype does.
-    nohup nice -n 19 /home/skypeuser/bin/skype-2.2.0.25/skype > /dev/null 2> /dev/null < /dev/null &
+    nohup nice -n 19 $programName > /dev/null 2> /dev/null < /dev/null &
 
 fi
 
